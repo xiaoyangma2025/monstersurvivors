@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Game</title>
+    <link rel="canonical" href="https://monstersurvivors.rest/pacman.html">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .game-container {
+            width: 100%;
+            height: 100vh; /* 使iframe填满整个视口 */
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <iframe 
+            src="pacman-game/index.html"  <!-- 使用新文件夹名称 -->
+            class="w-full h-full border-0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html> 
